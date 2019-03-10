@@ -1,15 +1,27 @@
 {
   "name": "dockerify-cli",
-  "version": "0.0.1",
-  "description": "",
-  "main": "index.js",
+  "version": "0.0.2",
+  "description": "A CLI for simplifying how to dockerize NodeJS based applications",
+  "keywords": [
+    "dockerify",
+    "dockerize",
+    "docker",
+    "node"
+  ],
   "bin": {
-    "dockerify": "index.js"
+    "dockerify": "bin/index.js"
   },
-  "author": "Jonathan Palma <tanpalma04@gmail.com>",
-  "license": "MIT",
   "dependencies": {
     "commander": "^2.19.0",
     "prompts": "^2.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonathanpalma/dockerify-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonathanpalma/react-native-tesseract-ocr/issues"
+  },
+  "author": "Jonathan Palma <tanpalma04@gmail.com> (http://jonathanpalma.me)",
+  "license": "MIT"
 }

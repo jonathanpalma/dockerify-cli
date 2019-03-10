@@ -1,0 +1,16 @@
+FROM node:{NODE_VERSION}-{LINUX_DISTRO} as build-stage
+WORKDIR /usr/src/app
+COPY package*.json ./
+RUN {NPM_INSTALL_COMMAND}
+COPY . ./
+RUN {NPM_BUILD_COMMAND}
+
+FROM {SERVER_BASE_IMAGE}:{SERVER_VERSION}-{SERVER_LINUX_DISTRO}
+# using nginx
+COPY --from=build-stage /usr/src/app/{BUILD_PATH} /var/www
+COPY --from=build-stage /usr/src/app/server/nginx.conf /etc/nginx/nginx.conf
+# using node (expressjs)
+# to be implemented later...
+
+EXPOSE {SERVER_PORT}
+ENTRYPOINT {SERVER_ENTRYPOINT}

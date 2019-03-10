@@ -1,6 +1,6 @@
 {
   "name": "dockerify-cli",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A CLI for simplifying how to dockerize NodeJS based applications",
   "keywords": [
     "dockerify",
@@ -20,7 +20,7 @@
     "url": "https://github.com/jonathanpalma/dockerify-cli.git"
   },
   "bugs": {
-    "url": "https://github.com/jonathanpalma/react-native-tesseract-ocr/issues"
+    "url": "https://github.com/jonathanpalma/dockerify-cli/issues"
   },
   "author": "Jonathan Palma <tanpalma04@gmail.com> (http://jonathanpalma.me)",
   "license": "MIT"

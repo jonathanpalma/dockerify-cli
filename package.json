@@ -1,6 +1,6 @@
 {
   "name": "dockerify-cli",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A CLI for simplifying how to dockerize NodeJS based applications",
   "keywords": [
     "dockerify",

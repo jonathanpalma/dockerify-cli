@@ -16,6 +16,7 @@ A CLI for simplifying how to dockerize NodeJS based applications :whale:
 ## About
 
 **DISCLAIMER: This package is still in development and therefore it is not recommended to use it in production**
+
 dockerify CLI aims to provide an easy way to configure and distribute NodeJS based applications using Docker.
 The idea behind this CLI comes from [docker-react-app-multi-stage-node-nginx](https://github.com/jonathanpalma/docker-react-app-multi-stage-node-nginx) and the need to make the configuration process easier as well as to provide cross-platform support.
 
@@ -67,7 +68,9 @@ Using installed package:
 ```sh
 $ dockerify-cli init
 ```
+
 *NOTES: You have to use `dockerify-cli.cmd` on Windows when using powershell*
+
 **I'm still looking for a way to avoid using .cmd extension, if you have the solution please send a PR**
 
 You will answer many questions when running the `init` command so dockerify-cli can provide the best fitting configuration for your project. However, considering that this may be opinionated based, dockerify-cli will expose the configuration files in order to you to be able to modify them.

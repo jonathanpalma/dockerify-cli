@@ -1,16 +1,29 @@
-# dockerify-cli
-A CLI for simplifying how to dockerize NodeJS based applications :whale:
+<div align="center">
+  <h1>dockerify-cli 🐳</h1>
 
-[![npm](https://img.shields.io/npm/v/dockerify-cli.svg)](https://www.npmjs.com/package/dockerify-cli)
-[![Install Size](https://packagephobia.now.sh/badge?p=dockerify-cli)](https://packagephobia.now.sh/result?p=dockerify-cli)
-[![npm](https://img.shields.io/npm/dw/dockerify-cli.svg)](https://www.npmjs.com/package/dockerify-cli)
+  <p>CLI for simplifying how to dockerize NodeJS based applications</p>
+</div>
+
+<hr />
+
+
+[![Version][version-badge]][package]
+[![Install Size][size-badge]][package-size]
+[![Downloads][downloads-badge]][npmcharts]
+[![PRs Welcome][prs-badge]][prs]
+[![MIT License][license-badge]][license]
+
+[![Watch on GitHub][github-watch-badge]][github-watch]
+[![Star on GitHub][github-star-badge]][github-star]
+[![Tweet][twitter-badge]][twitter]
+
 
 * [About](#about)
   - [Installation](#installation)
 * [Getting Started](#getting-started)
-* Commands
+* [Commands](#commands)
   - [`dockerify-cli init`](#dockerify-cli-init)
-  - [`dockerify-cli build`](#dockerify-cli-add)
+  - [`dockerify-cli build`](#dockerify-cli-build)
 * [Contributing](./CONTRIBUTING.md)
 
 ## About
@@ -96,3 +109,22 @@ Please note that you can decide whether to use nginx or an express server when a
 ### dockerify-cli init
 
 ### dockerify-cli build
+
+
+[downloads-badge]: https://img.shields.io/npm/dm/dockerify-cli.svg?style=flat-square
+[license-badge]: https://img.shields.io/npm/l/dockerify-cli.svg?style=flat-square
+[license]: https://github.com/jonathanpalma/dockerify-cli/blob/master/LICENSE
+[npmcharts]: http://npmcharts.com/compare/dockerify-cli
+[package-size]: https://packagephobia.now.sh/result?p=dockerify-cli
+[package]: https://www.npmjs.com/package/dockerify-cli
+[prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
+[prs]: http://makeapullrequest.com
+[size-badge]: https://flat.badgen.net/packagephobia/install/dockerify-cli
+[version-badge]: https://img.shields.io/npm/v/dockerify-cli.svg?style=flat-square
+
+[github-watch-badge]: https://img.shields.io/github/watchers/jonathanpalma/dockerify-cli.svg?style=social
+[github-watch]: https://github.com/jonathanpalma/dockerify-cli/watchers
+[github-star-badge]: https://img.shields.io/github/stars/jonathanpalma/dockerify-cli.svg?style=social
+[github-star]: https://github.com/jonathanpalma/dockerify-cli/stargazers
+[twitter]: https://twitter.com/intent/tweet?text=Check%20out%20dockerify-cli!%20https://github.com/jonathanpalma/dockerify-cli%20%F0%9F%90%B3
+[twitter-badge]: https://img.shields.io/twitter/url/https/github.com/jonathanpalma/dockerify-cli.svg?style=social
